@@ -23,6 +23,7 @@
     "cowsay": "1.5.0"
   },
   "scripts": {
-    "blog:build": "nx build blog"
+    "blog:build": "nx build blog",
+    "blog:serve": "nx serve blog"
   }
 }
