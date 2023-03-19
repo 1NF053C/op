@@ -1,6 +1,6 @@
 module.exports = {
 	"title": "Home | Compassion and Hardwork Blog",
-	"url": "https://example.com/",
+	"url": "https://compassionandhardwork.com/",
 	"language": "en",
 	"description": "I am",
 	"author": {
