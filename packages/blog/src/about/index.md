@@ -1,4 +1,5 @@
 ---
+title: About Me
 layout: layouts/base.njk
 eleventyNavigation:
   key: About Me

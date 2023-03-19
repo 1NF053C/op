@@ -1,5 +1,5 @@
 module.exports = {
-	"title": "Home | Compassion and Hardwork Blog",
+	"title": "Compassion and Hardwork Blog",
 	"url": "https://compassionandhardwork.com/",
 	"language": "en",
 	"description": "I am",
