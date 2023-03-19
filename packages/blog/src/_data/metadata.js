@@ -6,6 +6,6 @@ module.exports = {
 	"author": {
 		"name": "Chris",
 		"email": "universal_water@proton.me",
-		"url": "https://compassionandhardwork.com/about-me"
+		"url": "https://compassionandhardwork.com/about/"
 	}
 }
