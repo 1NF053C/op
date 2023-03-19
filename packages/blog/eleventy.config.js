@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
 	// Watch content images for the image pipeline.
-	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
+	eleventyConfig.addWatchTarget("**/*.{svg,webp,png,jpeg}");
 
 	// App plugins
 	eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
@@ -129,6 +129,6 @@ module.exports = function (eleventyConfig) {
 		// When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
 		// it will transform any absolute URLs in your HTML to include this
 		// folder name and does **not** affect where things go in the output folder.
-		//pathPrefix: "/",
+		// pathPrefix: "/",
 	};
 };
