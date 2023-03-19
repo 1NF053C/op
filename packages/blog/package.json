@@ -1,12 +1,9 @@
 {
-    "name": "blog",
-    "description": "eleventy blog",
-    "version": "1.0.0",
-    "dependencies": {
-        "ascii": "*"
-    },
-    "scripts": {
-        "build": "eleventy --input=./src --output=../../dist/packages/blog",
-        "serve": "eleventy --serve --input=./src --output=../../dist/packages/blog"
-    }
+	"name": "blog",
+	"version": "1.0.0",
+	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"scripts": {
+		"build": "eleventy --input=./src --output=../../dist/packages/blog",
+		"serve": "eleventy --serve --input=./src --output=../../dist/packages/blog"
+	}
 }
