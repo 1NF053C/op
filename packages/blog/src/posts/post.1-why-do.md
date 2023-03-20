@@ -1,9 +1,9 @@
 ---
-title: (Signifiance) do
+title: (Significance) do
 description:
 date: 2023-03-19
 tags:
-  - signifiance
+  - significance
   - do
 ---
 
