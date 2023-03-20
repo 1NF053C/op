@@ -1,5 +1,5 @@
 ---
-title: How to reduce severity of a CVE
+title: (Guide) How to reduce severity of a CVE
 description:
 date: 2023-03-19
 tags:
