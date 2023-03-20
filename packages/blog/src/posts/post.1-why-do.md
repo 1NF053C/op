@@ -7,7 +7,7 @@ tags:
   - do
 ---
 
-I like: Curiousity, persistence, hardwork, luck, building good judgement, building good instincts, and delivering results despite setbacks.
+You like may like curiousity, persistence, hardwork, luck, building good judgement, building good instincts, and delivering results despite setbacks.
 
 ## Quotes
 
