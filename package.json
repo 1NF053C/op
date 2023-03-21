@@ -11,19 +11,32 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@nrwl/nx-cloud": "latest",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "^3.0.0",
     "luxon": "^3.2.1",
     "markdown-it-anchor": "^8.6.6",
     "nx": "15.8.7",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
   },
   "workspaces": [
     "packages/**"
   ],
   "dependencies": {
-    "cowsay": "1.5.0"
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.13",
+    "cowsay": "1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "blog:build": "nx build blog",
-    "blog:serve": "nx serve blog"
+    "blog:serve": "nx serve blog",
+    "fire:dev": "nx dev fire",
+    "fire:build": "nx build fire",
+    "fire:preview": "nx preview fire"
   }
 }
