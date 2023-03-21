@@ -1,0 +1,11 @@
+{
+    "name": "dispyflare",
+    "version": "1.0.0",
+    "description": "Python hello world for Cloudflare Workers",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack -c webpack.config.js",
+        "publish": "wrangler publish"
+    },
+    "license": "MIT"
+}

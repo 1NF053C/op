@@ -1,0 +1,6 @@
+name = "dispyflare"
+compatibility_date = "2023-03-21"
+main = "dist/main.js"
+
+[build]
+command = "npm run build"
