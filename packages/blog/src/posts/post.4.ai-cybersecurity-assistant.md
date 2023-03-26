@@ -23,7 +23,7 @@ Defending our digital lives from nefarious attacks can feel like trying to dodge
 
 # <u>Future</u>
 
-Imagine a tireless and infinitely patient mentor, always ready to answer your questions and provide guidance as you navigate the ever-changing cybersecurity landscape. Information that is presented to you in ways that guarantees effectiveness. 
+Imagine a tireless and infinitely patient mentor, always ready to answer your questions and provide guidance as you navigate the ever-changing cybersecurity landscape. Information that is presented to you in a way that guarantees effectiveness.
 
 # <u>Obstacles</u>
 
