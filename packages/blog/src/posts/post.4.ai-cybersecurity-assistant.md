@@ -27,7 +27,7 @@ Imagine a tireless and infinitely patient mentor, always ready to answer your qu
 
 # <u>Obstacles</u>
 
-- Getting the mentor in front of you
+- Location
 - Money
 - Maintenance
 
@@ -37,7 +37,17 @@ A tireless mentor assisting you day and night will cost above zero dollars.
 
 Mentors still need mentors. A mentor needs to continuously improve to keep up with the latest threats and techniques.
 
-# <u>What we've built so far</u>
+# <u>Evidence of progress so far</u>
+
+Location:
+- Discord for reach
+
+Money:
+- Rate-limiting API calls
+- Future: accept sponsors/donations
+
+Maintenance:
+- Open source model
 
 <image width="130%" src="/public/img/discord-bot-cybersecurity-assistant.jpeg" alt="a chat conversation with the cybersecurity themed chat bot" />
 
