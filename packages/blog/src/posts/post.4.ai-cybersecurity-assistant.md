@@ -35,7 +35,7 @@ A tireless mentor needs to know where and when to receieve your questions and pr
 
 A tireless mentor assisting you day and night will cost above zero dollars.
 
-Mentors still need mentors. A mentor needs to continuously improve to keep up with the latest threats and techniques. This requires expertise in cybersecurity education, natural language processing, and chatbot development. The cost of this ongoing effort to maintain a tireless mentor can be a challenge for individuals and organizations alike, making it a significant obstacle in the cybersecurity learning journey.
+Mentors still need mentors. A mentor needs to continuously improve to keep up with the latest threats and techniques.
 
 # <u>What we've built so far</u>
 
