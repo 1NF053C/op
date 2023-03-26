@@ -13,7 +13,7 @@ tags:
  
 # <u>The Problem</u>
 
-As a cybersecurity learner looking to build your skills in an online community like Discord, you're up against a tough enemy. Information overload in a constantly evolving threat landscape. These challenges make it difficult to keep up and leave you unprepared when it comes to real-world scenarios. Traditional learning resources may not be enough, and the enemy is always evolving, making it difficult to keep up with the latest threats and techniques.
+As a cybersecurity learner looking to build your skills in an online community like Discord, you're up against a tough enemy. Information overload in a constantly evolving threat landscape. Traditional learning resources are helpful but not enough to keep up with the latest threats and techniques.
 
 # <u>Why now?</u>
 
@@ -39,5 +39,5 @@ Mentors still need mentors. A mentor needs to continuously improve to keep up wi
 
 # <u>What we've built so far</u>
 
-<image src="img/discord-bot-cybersecurity-assistant.jpeg" alt="a chat conversation with the cybersecurity themed chat bot" />
+<image width="130%" src="/public/img/discord-bot-cybersecurity-assistant.jpeg" alt="a chat conversation with the cybersecurity themed chat bot" />
 
