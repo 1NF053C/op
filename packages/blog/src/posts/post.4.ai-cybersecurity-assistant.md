@@ -21,7 +21,7 @@ The cybersecurity landscape is rapidly changing and the demand for skilled profe
 
 # <u>A Future</u>
 
-Imagine a tireless and infinitely patient mentor, always ready to answer your questions and provide guidance as you navigate the ever-changing cybersecurity landscape. Information that is presented to you in a way that is useful.
+Imagine a tireless and infinitely patient coach, always ready to answer your questions, quiz you on relevant subject matter, and provide information as you navigate the ever-changing cybersecurity landscape. Information that is presented to you in a way that is useful.
 
 # <u>Obstacles</u>
 
@@ -31,11 +31,11 @@ There are some fun problems to solve between now and the future.
 - Financial cost
 - Maintenance and enhancements
 
-A tireless mentor needs to know where and when to receive your questions and provide you with guidance or quizzes. Information that is inaccessible isn't use to you. Your answers need to be where you already spend your time and attention.
+A tireless coach needs to know where and when to receive your questions and provide you with guidance or quizzes. Information that is inaccessible isn't use to you. Your answers need to be where you already spend your time and attention.
 
-A tireless mentor assisting you day and night will cost above zero dollars.
+A tireless coach working for you day and night will cost above zero dollars.
 
-Mentors still need mentors. A mentor needs to continuously improve to keep up with the latest threats and techniques.
+Coaches still need coaches. A cybersecurity coach needs to continuously improve to keep up with the latest threats and techniques.
 
 # <u>Evidence of progress so far</u>
 
