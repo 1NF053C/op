@@ -31,9 +31,9 @@ There are some fun problems to solve between now and the future.
 - Financial cost
 - Maintenance and enhancements
 
-A tireless coach needs to know where and when to receive your questions and provide you with guidance or quizzes. Information that is inaccessible isn't use to you. Your answers need to be where you already spend your time and attention.
+A tireless coach needs to know where and when to receive your questions and provide you with guidance or quizzes.
 
-A tireless coach working for you day and night will cost above zero dollars.
+A tireless coach working for you day and night will cost above zero dollars. Information needs to be affordable.
 
 Coaches still need coaches. A cybersecurity coach needs to continuously improve to keep up with the latest threats and techniques.
 
