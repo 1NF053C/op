@@ -1,5 +1,5 @@
 ---
-title: (Project) AI Powered CyberSecurity Chat Assistant
+title: (Project) AI CyberSecurity Chatbot
 description: Explanation of these terms 
 date: 2023-03-25
 tags:
