@@ -19,8 +19,6 @@ As a cybersecurity learner looking to build your skills in an online community l
 
 The cybersecurity landscape is rapidly changing and the demand for skilled professionals is outpacing supply. Failing to act will lead to more severe threats and consequences such as data breaches, financial loss, and reputational damage. This is some serious stuff, but it doesn't mean we can't have some fun while we're at it.
 
-Defending our digital lives from nefarious attacks can feel like trying to dodge raindrops in a hurricane or trying to teach a goldfish how to play chess - it's gonna be a wild ride, but we'll get there. So let's roll up our sleeves, fire up our neural networks, and get cracking on building a rock-solid cybersecurity workforce.
-
 # <u>Future</u>
 
 Imagine a tireless and infinitely patient mentor, always ready to answer your questions and provide guidance as you navigate the ever-changing cybersecurity landscape. Information that is presented to you in a way that guarantees effectiveness.
