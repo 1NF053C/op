@@ -21,15 +21,17 @@ The cybersecurity landscape is rapidly changing and the demand for skilled profe
 
 # <u>Future</u>
 
-Imagine a tireless and infinitely patient mentor, always ready to answer your questions and provide guidance as you navigate the ever-changing cybersecurity landscape. Information that is presented to you in a way that guarantees effectiveness.
+Imagine a tireless and infinitely patient mentor, always ready to answer your questions and provide guidance as you navigate the ever-changing cybersecurity landscape. Information that is presented to you in a way that is useful.
 
 # <u>Obstacles</u>
 
+Three big obstacles sit between us now and that future.
+
 - Location
 - Money
-- Maintenance
+- Maintenance and enhancements
 
-A tireless mentor needs to know where and when to receive your questions and provide you answers. Easily digestible nuggets of wisdom that are inaccessible aren't useful to you. Your answers need to be where you already spend your time and attention.
+A tireless mentor needs to know where and when to receive your questions and provide you with guidance or quizzes. Information that is inaccessible isn't use to you. Your answers need to be where you already spend your time and attention.
 
 A tireless mentor assisting you day and night will cost above zero dollars.
 
@@ -42,7 +44,7 @@ Location:
 
 Money:
 - Rate-limiting API calls
-- Future: accept sponsors/donations
+- Future: Offer commercial licenses / Accept sponsors and donations
 
 Maintenance:
 - Open source model
