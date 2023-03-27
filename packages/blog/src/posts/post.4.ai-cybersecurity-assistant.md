@@ -29,7 +29,7 @@ Imagine a tireless and infinitely patient mentor, always ready to answer your qu
 - Money
 - Maintenance
 
-A tireless mentor needs to know where and when to receieve your questions and provide you answers. Easily digestible nuggets of wisdom that are inaccessible aren't useful to you. Your answers need to be where you already spend your time and attention.
+A tireless mentor needs to know where and when to receive your questions and provide you answers. Easily digestible nuggets of wisdom that are inaccessible aren't useful to you. Your answers need to be where you already spend your time and attention.
 
 A tireless mentor assisting you day and night will cost above zero dollars.
 
