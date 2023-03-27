@@ -25,7 +25,7 @@ Imagine a tireless and infinitely patient coach, always ready to answer your que
 
 # <u>Obstacles</u>
 
-There are some fun problems to solve between now and the future.
+There are some fun problems to solve between now and that future.
 
 - Location choice
 - Financial cost
