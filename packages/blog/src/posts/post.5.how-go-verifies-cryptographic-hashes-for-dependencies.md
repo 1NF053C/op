@@ -11,7 +11,7 @@ tags:
 ---
 
 # <u>Context</u>
-Consider an "albums" webservice in go using the gin web framework such that, when you visit {% highlight "sh" %}http://localhost:8080/album-service{% endhighlight %} it returns the following json:
+Consider an "albums" webservice in go using the gin web framework such that, when you visit {% highlight "sh" %}http://localhost:8080/albums{% endhighlight %} it returns the following json:
 
 {% highlight "json" %}
 [
