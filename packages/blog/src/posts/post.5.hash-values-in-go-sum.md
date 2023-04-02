@@ -11,7 +11,7 @@ tags:
 ---
 
 # <u> Takeaway </u>
-go.sum hash values enable go to determine whether a dependency's contents have changed since the go.sum hash was created.
+go.sum hash values enable go to determine whether a dependency's contents have changed since the go.sum hash value was created.
 
 # <u>Context</u>
 Consider an "albums" webservice in go using the gin web framework such that, when you visit {% highlight "sh" %}http://localhost:8080/albums{% endhighlight %} it returns the following json:
