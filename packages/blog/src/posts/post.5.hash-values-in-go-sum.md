@@ -93,3 +93,4 @@ github.com/gin-gonic/gin v1.9.0 h1:OjyFBKICoexlu99ctXNR2gg+c5pKrKMuyjgARg9qeY8=
 - <a target="_blank" ref="noopener noreferrer" href="https://pkg.go.dev/golang.org/x/mod/sumdb/dirhash">https://pkg.go.dev/golang.org/x/mod/sumdb/dirhash</a>
 - <a target="_blank" ref="noopener noreferrer" href="https://go.dev/doc/modules/gomod-ref">https://go.dev/doc/modules/gomod-ref</a>
 - <a target="_blank" ref="noopener noreferrer" href="https://golangbyexample.com/go-mod-sum-module/">https://golangbyexample.com/go-mod-sum-module</a>
+- <a target="_blank" ref="noopener noreferrer" href="https://cs.opensource.google/go/x/mod/+/refs/tags/v0.5.0:sumdb/dirhash/hash.go">https://cs.opensource.google/go/x/mod/+/refs/tags/v0.5.0:sumdb/dirhash/hash.go</a> (the hashing logic used)
