@@ -7,5 +7,4 @@ eleventyNavigation:
 ---
 # About Me
 
-My name is Chris.
-
+My name is Chris. I've been a professional software developer since 2017. I like building (and breaking) things. ᕙ(⇀‸↼‶)ᕗ
