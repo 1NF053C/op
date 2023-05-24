@@ -15,8 +15,8 @@ tags:
 # <u> Draft Outline To Update Later </u>
 
 - glotta helps developers translate hugo files from english into other languages
-- glotta npm: https://www.npmjs.com/package/glotta
-- glotta github: https://github.com/simeononsecurity/glotta
+- glotta npm url: https://www.npmjs.com/package/glotta
+- glotta github url: https://github.com/simeononsecurity/glotta
 - a lexer (aka scanner) helps developers group text characters into "tokens"
 - a regex pattern (aka regular expression) helps developers apply logic to text which match a certain pattern
 - a parser helps developers generate syntax trees (aka concrete syntax tree or abstract syntax tree) using grammar rules and tokens
