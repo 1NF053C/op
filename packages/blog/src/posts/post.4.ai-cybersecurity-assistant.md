@@ -1,6 +1,6 @@
 ---
 title: (Project) AI CyberSecurity Chatbot
-description: Explanation of these terms 
+description: A Discord Chatbot written in Python
 date: 2023-03-25
 tags:
   - project
