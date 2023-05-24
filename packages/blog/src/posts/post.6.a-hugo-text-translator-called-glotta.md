@@ -18,8 +18,9 @@ tags:
 - glotta npm: https://www.npmjs.com/package/glotta
 - glotta github: https://github.com/simeononsecurity/glotta
 - a lexer (aka scanner) helps developers group text characters into "tokens"
+- a regex pattern (aka regular expression) helps developers apply logic to text which match a certain pattern
 - a parser helps developers generate syntax trees (aka concrete syntax tree or abstract syntax tree) using grammar rules and tokens
-- a visitor pattern helps developers define logic for different datatypes in a tree (aka concrete or abstract)
+- a visitor pattern helps developers define logic that applies to different datatypes in a (concrete or abstract) syntax tree
 - chevrotain.js helps developers define lexers, parsers, and visitors: https://github.com/Chevrotain/chevrotain
 
 # <u>Resources</u>
