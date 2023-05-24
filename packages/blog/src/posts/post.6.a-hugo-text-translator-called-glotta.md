@@ -10,6 +10,9 @@ tags:
   - regex
   - parser
   - visitor
+  - javascript
+  - google translate api
+  - deepl translate api
 ---
 
 # <u> Overview </u>
@@ -28,3 +31,5 @@ tags:
 - <a target="_blank" ref="noopener noreferrer" href="https://en.wikipedia.org/wiki/Recursive_descent_parser">https://en.wikipedia.org/wiki/Recursive_descent_parser</a>
 - <a target="_blank" ref="noopener noreferrer" href="https://en.wikipedia.org/wiki/Visitor_pattern">https://en.wikipedia.org/wiki/Visitor_pattern</a>
 - <a target="_blank" ref="noopener noreferrer" href="https://en.wikipedia.org/wiki/Regular_expression">https://en.wikipedia.org/wiki/Regular_expression</a>
+- <a target="_blank" ref="noopener noreferrer" href="https://cloud.google.com/translate/">https://cloud.google.com/translate/</a>
+- <a target="_blank" ref="noopener noreferrer" href="https://www.deepl.com/en/docs-api/">https://www.deepl.com/en/docs-api/</a>
