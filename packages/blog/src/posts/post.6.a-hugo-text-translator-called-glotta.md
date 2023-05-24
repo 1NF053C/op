@@ -20,11 +20,14 @@ tags:
 - glotta helps developers translate hugo files from english into other languages
 - glotta npm url: <a target="_blank" ref="noopener noreferrer" href="https://www.npmjs.com/package/glotta">https://www.npmjs.com/package/glotta</a>
 - glotta github url: <a target="_blank" ref="noopener noreferrer" href="https://github.com/simeononsecurity/glotta">https://github.com/simeononsecurity/glotta</a>
+
+# <u> Concepts </u>
+- chevrotain.js helps developers define lexers, parsers, and visitors: <a target="_blank" ref="noopener noreferrer" href="https://github.com/Chevrotain/chevrotain">https://github.com/Chevrotain/chevrotain</a>
 - a lexer (aka scanner) helps developers group text characters into "tokens"
 - a regex pattern (aka regular expression) helps developers apply logic to text which match a certain pattern
 - a parser helps developers generate syntax trees (aka concrete syntax tree or abstract syntax tree) using grammar rules and tokens
 - a visitor pattern helps developers apply logic to datatypes in a (concrete or abstract) syntax tree
-- chevrotain.js helps developers define lexers, parsers, and visitors: <a target="_blank" ref="noopener noreferrer" href="https://github.com/Chevrotain/chevrotain">https://github.com/Chevrotain/chevrotain</a>
+
 
 # <u>Resources</u>
 - <a target="_blank" ref="noopener noreferrer" href="https://en.wikipedia.org/wiki/Lexical_analysis">https://en.wikipedia.org/wiki/Lexical_analysis</a>
