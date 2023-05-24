@@ -12,7 +12,7 @@ tags:
   - visitor
 ---
 
-# <u> Draft Outline To Update Later </u>
+# <u> Overview </u>
 
 - glotta helps developers translate hugo files from english into other languages
 - glotta npm url: https://www.npmjs.com/package/glotta
