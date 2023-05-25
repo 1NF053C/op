@@ -15,7 +15,7 @@ tags:
   - deepl translate api
 ---
 
-# <u> Project Takeaways </u>
+# <u> Project Overview </u>
 
 - glotta helps developers translate hugo files from english into other languages
 - glotta npm url: <a target="_blank" ref="noopener noreferrer" href="https://www.npmjs.com/package/glotta">https://www.npmjs.com/package/glotta</a>
