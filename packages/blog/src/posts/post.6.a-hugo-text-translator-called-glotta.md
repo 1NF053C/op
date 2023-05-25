@@ -26,7 +26,7 @@ NOTE:
 
 # <u> The Problem </u>
 
-This was a fun one. A client of mine, <a href="https://simeononsecurity.ch">simeononsecurity</a>, asked me to help them translate their static website content from English into a number of other languages for global outreach. They use `hugo` to build their website and they had ~2800 hugo files written in english and hugo markdown. The API translation providers they were sending their file contents to does not differentiate between text that should be translated, and hugo markdown syntax which should not be translated, so some preprocessing was needed.
+This was a fun one. A client of mine, <a href="https://simeononsecurity.ch">simeononsecurity</a>, asked me to help them translate their static website content from English into a number of other languages for global outreach. They use `hugo` to build their website and they had ~2800 hugo files written in english and hugo markdown. The translation APIs they were using do not differentiate between text that should be translated, and hugo markdown syntax which should not be translated, so some preprocessing was needed.
 
 To solve this, I created `glotta`, a node.js program that scans and parses hugo content, tracks which parts of the file should be translated, translates those parts with the specified translation API, and then reconstructs a hugo file in a set of target languages without mangling hugo file syntax.
 
