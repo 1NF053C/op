@@ -39,12 +39,12 @@ To solve this, I created `glotta`, a node.js program that scans and parses hugo 
 **Simeononsecurity** wrote a companion article for this project here: <a href="https://simeononsecurity.ch/other/glotta-streamlining-hugo-text-translation-for-global-reach/">https://simeononsecurity.ch/other/glotta-streamlining-hugo-text-translation-for-global-reach/</a>
 
 # <u> Technical Concepts Used During Development </u>
-- chevrotain.js helps developers define lexers, parsers, and visitors: <a target="_blank" ref="noopener noreferrer" href="https://github.com/Chevrotain/chevrotain">https://github.com/Chevrotain/chevrotain</a>
-- a lexer (aka scanner) helps developers group text characters into "tokens"
-- a regex pattern (aka regular expression) helps developers apply logic to text which match a certain pattern
-- a parser helps developers generate syntax trees (aka concrete syntax tree or abstract syntax tree) using grammar rules and tokens
-- a visitor pattern helps developers apply logic to datatypes in a (concrete or abstract) syntax tree
-- hugo helps developers generate static web pages: <a target="_blank" ref="noopener noreferrer" href="https://gohugo.io/">https://gohugo.io/</a>
+- chevrotain.js:  helps developers define lexers, parsers, and visitors: <a target="_blank" ref="noopener noreferrer" href="https://github.com/Chevrotain/chevrotain">https://github.com/Chevrotain/chevrotain</a>
+- lexer: (aka scanner) helps developers group text characters into "tokens"
+- regex pattern: (aka regular expression) helps developers apply logic to text which match a certain pattern
+- parser: helps developers generate syntax trees (aka concrete syntax tree or abstract syntax tree) using grammar rules and tokens
+- visitor pattern: helps developers apply logic to datatypes in a (concrete or abstract) syntax tree
+- hugo: helps developers generate static web pages: <a target="_blank" ref="noopener noreferrer" href="https://gohugo.io/">https://gohugo.io/</a>
 
 # <u>Resources</u>
 - <a target="_blank" ref="noopener noreferrer" href="https://en.wikipedia.org/wiki/Lexical_analysis">https://en.wikipedia.org/wiki/Lexical_analysis</a>
