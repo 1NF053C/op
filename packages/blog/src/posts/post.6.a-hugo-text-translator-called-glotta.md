@@ -31,9 +31,9 @@ This was a fun one. A client of mine, <a href="https://simeononsecurity.ch">sime
 To solve this, I created `glotta`, a node.js program that scans and parses hugo content, tracks which parts of the file should be translated, translates those parts with the specified translation API, and then reconstructs a hugo file in a set of target languages without mangling hugo file syntax.
 
 # <u> Outcomes Achieved for Simeononsecurity: </u>
-- Supports **14 new languages**, from only 1
-- **~3,800** pages from ~250 pages (including only articles)
-- **~43,000** pages from ~2,800 pages (including articles as well as generated tag pages, rss, sitemap, etc)
+- Supports **15 languages**, from only 1
+- **~3,800** pages, from ~250 pages (including only articles)
+- **~43,000** pages, from ~2,800 pages (including articles as well as generated tag pages, rss, sitemap, etc)
 - **Total Website Traffic/Revenue Increase: PENDING**, (Waiting to hear back from Simeononsecurity for these details)
 
 # <u> Companion Article: </u>
