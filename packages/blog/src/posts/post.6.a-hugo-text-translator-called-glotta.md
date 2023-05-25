@@ -34,7 +34,7 @@ To solve this, I created `glotta`, a node.js program that scans and parses hugo 
 - Website supports **15 languages**, from only 1
 - Website has **~3,800** articles, from ~250 articles
 - Website has **~43,000** pages, from ~2,800 pages (including articles as well as generated tag pages, rss, sitemap, etc)
-- Website has **Traffic/Revenue Increase: PENDING**, (Waiting to hear back from Simeononsecurity for these details)
+- Website has **PENDING** traffic/revenue increase, (Waiting to hear back from Simeononsecurity for these details)
 
 # <u> Companion Article: </u>
 **Simeononsecurity** wrote a companion article for this project here: <a href="https://simeononsecurity.ch/other/glotta-streamlining-hugo-text-translation-for-global-reach/">https://simeononsecurity.ch/other/glotta-streamlining-hugo-text-translation-for-global-reach/</a>
