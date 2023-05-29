@@ -113,9 +113,9 @@ module.exports = function (eleventyConfig) {
 
 		// These are all optional:
 		/*dir: {
-			input: "src/",         // default: "."
-			// includes: "_includes",    // default: "_includes"
-			// data: "src/_data",            // default: "_data"
+			input: "src/",         				    // default: "."
+			// includes: "_includes",   		    // default: "_includes"
+			// data: "src/_data",       		    // default: "_data"
 			// output: "../../dist/packages/blog"
 		},*/
 

@@ -3,26 +3,60 @@ layout: layouts/home.njk
 eleventyNavigation:
   key: Home
   order: 1
-numberOfLatestPostsToShow: 3
 ---
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
 
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
+<h1>Posts</h1>
+<input id="searchbox" placeholder="search">
+  {% set postslist = collections.posts %}
+  {% include "postslist.njk" %}
+  <script>
+    const POST_LIST_ITEM_CLASS_SELECTOR = '.postlist-item'
+    async function getSourceData() {
+      const sourceData = [];
+      const items = document.querySelectorAll(POST_LIST_ITEM_CLASS_SELECTOR);
+      items.forEach(item => {
+        const {url, title, content} = item.dataset;
+        sourceData.push({url, title, content});
+      });
+      return sourceData;
+    }
+    async function createFuseClient(data) {
+      const options = {
+        // ignoreLocation: true,
+        threshold: 0.5,
+        includeScore: true,
+        includeMatches: true,
+        keys: ["url", "title", "content"]
+      }
+      const fuse = new Fuse(data, options);
+      return fuse;
+    }
+    let sourceData = null;
+    let fuse = null;
+    async function search(text) {
+      sourceData = sourceData
+        ? sourceData
+        : await getSourceData();
+      fuse = fuse
+        ? fuse
+        : await createFuseClient(sourceData);
+      const result = fuse.search(text);
+      return result;
+    }
+    const searchboxElem = document.querySelector('#searchbox');
+    searchboxElem.addEventListener('input', async (e) => {
+      const searchText = e.target.value;
+      const results = await search(searchText);
 
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/archive/">the archive</a>.</p>
-{% endif %}
-
-{# List every content page in the project #}
-{#
-<ul>
-	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-	{%- endfor %}
-</ul>
-#}
+      const container = document.querySelector('.postlist'); // container of items
+      const items = document.querySelectorAll(POST_LIST_ITEM_CLASS_SELECTOR); // all items, hidden or not
+      container.style.counterReset = 'start-from ' + results.length > 0 ? results.length : items.length;
+      items.forEach(item => {
+        if (searchText.length === 0 || results.map(r => r.item.url).indexOf(item.dataset.url) > -1) {
+          item.style.display = 'flex'
+        } else {
+          item.style.display = 'none'
+        }
+      });
+    });
+  </script>

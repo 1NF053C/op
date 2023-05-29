@@ -5,7 +5,7 @@ module.exports = {
 	"description": "I am",
 	"author": {
 		"name": "Chris",
-		"email": "universal_water@proton.me",
+		"email": "",
 		"url": "https://compassionandhardwork.com/about/"
 	}
 }
