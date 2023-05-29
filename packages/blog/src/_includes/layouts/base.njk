@@ -1,19 +1,28 @@
 <!doctype html>
 <html lang="{{ metadata.language }}">
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4KT155J0HH"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-4KT155J0HH');
+        </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ title }} | {{ metadata.title }}</title>
         <meta name="description" content="{{ description or metadata.description }}">
         <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
         <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}"> {%- css %}* { box-sizing: border-box; }{% endcss %}
-        {%- css %}{% include "public/css/index.css" %}{% endcss %}
-        {#- Or add from node_modules #}
-        {# {%- css %}{% include "public/css/prism-okaidia.css" %}{% endcss %} #}
-		<script src="public/js/fuse.min.js"></script>
+        {%- css %}{% include "public/css/index.css" %}{% endcss %}{#- Or add from node_modules #}
+        {# {%- css %}{% include "public/css/prism-okaidia.css" %}{% endcss %} #}<script src="public/js/fuse.min.js"> </script>
         <style>{% getBundle "css" %}</style>
     </head>
-    <body><a href="#skip" class="visually-hidden">Skip to main content</a>
+    <body>
+        <a href="#skip" class="visually-hidden">Skip to main content</a>
         <header>
             {# <a href="/" class="home-link">{{ metadata.title }}</a> #}
             {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}

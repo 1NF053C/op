@@ -4,7 +4,6 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-
 <h1>Posts</h1>
 <input id="searchbox" placeholder="search">
   {% set postslist = collections.posts %}
@@ -53,9 +52,9 @@ eleventyNavigation:
       container.style.counterReset = 'start-from ' + results.length > 0 ? results.length : items.length;
       items.forEach(item => {
         if (searchText.length === 0 || results.map(r => r.item.url).indexOf(item.dataset.url) > -1) {
-          item.style.display = 'flex'
+          item.style.display = 'flex';
         } else {
-          item.style.display = 'none'
+          item.style.display = 'none';
         }
       });
     });
