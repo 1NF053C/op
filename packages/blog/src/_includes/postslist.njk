@@ -1,7 +1,7 @@
 <ol reversed class="postlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
 {% for post in postslist | reverse %}
 	<li
-		data-title="{{ post.title }}"
+		data-title="{{ post.data.title }}"
 		data-url="{{ post.url }}"
 		data-content="{{ post.content }}"
 		class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}"
