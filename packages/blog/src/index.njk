@@ -13,11 +13,14 @@ eleventyNavigation:
     gtag('get', 'G-4KT155J0HH', 'client_id', (client_id) => {
       setInterval(() => {
         const searchValue = document.querySelector('#searchbox').value;
-        if (searchValue.length > 0 && client_id !== null) {
-          gtag('event', 'user_search', {
+        const searchEventPayload = {
             client_id: client_id,
             search_value: searchValue
-          });
+          }
+        console.log('searchEventPayload', searchEventPayload);
+        console.log('will send only when searchValue.length > 0')
+        if (searchValue.length > 0 && client_id !== null) {
+          gtag('event', 'user_search', searchEventPayload);
         }
       }, 1500);
     })
