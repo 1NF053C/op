@@ -10,7 +10,6 @@ eleventyNavigation:
   {% set postslist = collections.posts %}
   {% include "postslist.njk" %}
   <script>
-    const client_id = null;
     gtag('get', 'G-4KT155J0HH', 'client_id', (client_id) => {
       setInterval(() => {
         const searchValue = document.querySelector('#searchbox').value;
