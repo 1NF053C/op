@@ -4,11 +4,26 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
+
 <h1>Posts</h1>
 <input id="searchbox" placeholder="search">
   {% set postslist = collections.posts %}
   {% include "postslist.njk" %}
   <script>
+    setInterval(() => {
+      const searchValue = document.querySelector('#searchbox').value;
+      if (searchValue.length > 0) {
+        const pathAfterDomain = window
+          .location
+          .pathname
+          .slice(0, window
+            .location
+            .pathname
+            .indexOf('?'))
+        const withNewQuery = pathAfterDomain + '?q=' + searchValue;
+        history.pushState(null, '', withNewQuery);
+      }
+    }, 1500)
     const POST_LIST_ITEM_CLASS_SELECTOR = '.postlist-item'
     async function getSourceData() {
       const sourceData = [];
@@ -46,10 +61,11 @@ eleventyNavigation:
     searchboxElem.addEventListener('input', async (e) => {
       const searchText = e.target.value;
       const results = await search(searchText);
-
       const container = document.querySelector('.postlist'); // container of items
       const items = document.querySelectorAll(POST_LIST_ITEM_CLASS_SELECTOR); // all items, hidden or not
-      container.style.counterReset = 'start-from ' + results.length > 0 ? results.length : items.length;
+      container.style.counterReset = 'start-from ' + results.length > 0
+        ? results.length
+        : items.length;
       items.forEach(item => {
         if (searchText.length === 0 || results.map(r => r.item.url).indexOf(item.dataset.url) > -1) {
           item.style.display = 'flex';
