@@ -10,21 +10,19 @@ eleventyNavigation:
   {% set postslist = collections.posts %}
   {% include "postslist.njk" %}
   <script>
-    setInterval(() => {
-      const searchValue = document.querySelector('#searchbox').value;
-      if (searchValue.length > 0) {
-        const pathAfterDomain = window
-          .location
-          .pathname
-          .slice(0, window
-            .location
-            .pathname
-            .indexOf('?'))
-        const withNewQuery = pathAfterDomain + '?q=' + searchValue;
-        history.pushState(null, '', withNewQuery);
-      }
-    }, 1500)
-    const POST_LIST_ITEM_CLASS_SELECTOR = '.postlist-item'
+    const client_id = null;
+    gtag('get', 'G-4KT155J0HH', 'client_id', (client_id) => {
+      setInterval(() => {
+        const searchValue = document.querySelector('#searchbox').value;
+        if (searchValue.length > 0 && client_id !== null) {
+          gtag('event', 'user_search', {
+            client_id: client_id,
+            search_value: searchValue
+          });
+        }
+      }, 1500);
+    })
+    const POST_LIST_ITEM_CLASS_SELECTOR = '.postlist-item';
     async function getSourceData() {
       const sourceData = [];
       const items = document.querySelectorAll(POST_LIST_ITEM_CLASS_SELECTOR);
