@@ -44,7 +44,6 @@ eleventyNavigation:
       return result;
     }
     async function handleUserSearchEvent(e) {
-      console.log(e)
       if (e.key.toLowerCase() === 'enter') {
         const newSearchText = e.target.value;
         const searchParams = new URLSearchParams(window.location.search);
