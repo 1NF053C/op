@@ -22,8 +22,8 @@ eleventyNavigation:
     }
     async function createFuseClient(data) {
       const options = {
-        // ignoreLocation: true,
-        threshold: 0.5,
+        ignoreLocation: true,
+        threshold: 0.2,
         includeScore: true,
         includeMatches: true,
         keys: ["url", "title", "content"]
