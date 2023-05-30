@@ -2,7 +2,7 @@ module.exports = {
 	"title": "Compassion and Hardwork Blog",
 	"url": "https://compassionandhardwork.com/",
 	"language": "en",
-	"description": "I am",
+	"description": "",
 	"author": {
 		"name": "Chris",
 		"email": "",
