@@ -38,6 +38,7 @@ eleventyNavigation:
       CSS<br/>
       HTML<br/>
       React.js<br/>
+      UI Components<br/>
       GraphQL<br/>
       Node.js<br/>
       SQL ORM<br/>
@@ -56,6 +57,7 @@ eleventyNavigation:
       Node.js<br/>
       React.js<br/>
       Preact.js<br/>
+      UI Components<br/>
       Express.js<br/>
       Amazon S3<br/>
       Amazon CloudFront<br/>
