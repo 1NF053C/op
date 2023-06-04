@@ -15,7 +15,7 @@ eleventyNavigation:
 
 <div class="stack">
   <div class="stack card">
-    <h4>Latest</h4>
+    <h4>2023</h4>
     <div>
       JS<br/>
       CSS<br/>
