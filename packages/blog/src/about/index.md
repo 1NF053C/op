@@ -8,10 +8,10 @@ eleventyNavigation:
 ## About
 
 <p>
-  ᕙ(⇀‸↼‶)ᕗ This is a tech blog
+  ᕙ(⇀‸↼‶)ᕗ This is a tech blog.
 </p>
 
-### My Tech Interests
+### Tech Interests
 
 <div class="stack">
   <div class="stack card">
