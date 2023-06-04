@@ -20,8 +20,9 @@ eleventyNavigation:
       JS<br/>
       CSS<br/>
       HTML<br/>
-      Static Website Generation<b4/>
+      Static Website Generation<br/>
       Node.js<br/>
+      Mitigating Web App Vulnerabilities<br/>
       Python<br/>
       Pytest<br/>
       Chatbots<br/>
