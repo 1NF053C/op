@@ -10,8 +10,7 @@ tags:
   - openai
   - chatgpt
 ---
- 
- 
+
 # <u>Overview</u>
 
 The goal was to integrate a discord chatbot with openai. Implementation was straightforward once a discord server was setup for testing.
