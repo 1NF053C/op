@@ -5,13 +5,13 @@ eleventyNavigation:
   key: About
   order: 3
 ---
-## About Me
+## About
 
 <p>
-  My name is Chris. ᕙ(⇀‸↼‶)ᕗ I've been a professional software developer since 2017.
+  ᕙ(⇀‸↼‶)ᕗ This is a tech blog
 </p>
 
-### Tech Interests
+### My Tech Interests
 
 <div class="stack">
   <div class="stack card">
