@@ -23,7 +23,7 @@ eleventyNavigation:
       Node.js<br/>
       Python<br/>
       Pytest<br/>
-      Discord Chatbots<br/>
+      Chatbots<br/>
       Docker<br/>
       Linux Sysadmin<br/>
       Windows Sysadmin<br/>
