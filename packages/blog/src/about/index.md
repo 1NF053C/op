@@ -20,6 +20,7 @@ eleventyNavigation:
       JS<br/>
       CSS<br/>
       HTML<br/>
+      Static Website Generation<b4/>
       Node.js<br/>
       Python<br/>
       Pytest<br/>
