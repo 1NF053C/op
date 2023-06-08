@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## about my work
 - What I do: provide value to stakeholders by building and testing software.
-- How I've done it: exceed expectations & have fun doing it. Never fired nor laid off.
+- How I do it: exceed expectations & have fun doing it. Never fired / laid off.
 - Present: Continuing my education and freelancing. Feel free to ask for references.
 
 ### Tech Interests
