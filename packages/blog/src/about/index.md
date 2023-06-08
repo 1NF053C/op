@@ -37,6 +37,8 @@ Please feel free to ask for references.
       Docker<br/>
       Linux Sysadmin<br/>
       Windows Sysadmin<br/>
+      Project Management<br/>
+      ITIL<br/>
     </div>
   </div>
 
@@ -92,6 +94,13 @@ Please feel free to ask for references.
       CSS <br/>
       HTML <br/>
       SQL <br/>
+    </div>
+  </div>
+
+  <div class="stack card">
+    <h4>2013-2017</h4>
+    <div>
+      Received my first B.S. at <a href="https://www.psu.edu/">The Pennsylvania State University</a>
     </div>
   </div>
 
