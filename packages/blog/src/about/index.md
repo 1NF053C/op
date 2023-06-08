@@ -100,7 +100,7 @@ Please feel free to ask for references.
   <div class="stack card">
     <h4>2013-2017</h4>
     <div>
-      Received my first B.S. at <a href="https://www.psu.edu/">The Pennsylvania State University</a>
+      Information Sciences @ <a href="https://www.psu.edu/">The Pennsylvania State University</a>
     </div>
   </div>
 
