@@ -5,11 +5,16 @@ eleventyNavigation:
   key: About
   order: 3
 ---
-## About
+## this website
 
 <p>
-  ᕙ(⇀‸↼‶)ᕗ This is a tech blog.
+  ᕙ(⇀‸↼‶)ᕗ this is a tech blog.
 </p>
+
+## about my work
+- What I do: provide value to stakeholders by building and testing software.
+- How I do it: I exceed expectations & try to have fun doing it. Never fired nor laid off.
+- Currently: Continuing my education and freelancing. Plz ask for references.
 
 ### Tech Interests
 
